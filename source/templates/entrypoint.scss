@@ -32,3 +32,13 @@ ul {
     padding-left: 0;
   }
 }
+
+.message {
+  position: relative;
+  padding: $alert-padding-y $alert-padding-x;
+  margin-bottom: $alert-margin-bottom;
+  border: $alert-border-width solid transparent;
+
+  @include border-radius(4px);
+  @include alert-variant(rgba(255, 76, 95, 0.31), #fff, #e94455);
+}

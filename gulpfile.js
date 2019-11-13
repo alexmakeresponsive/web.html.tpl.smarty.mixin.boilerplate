@@ -22,11 +22,14 @@ gulp.task('css:create', function () {
     return gulp.src(
             [
                 './source/templates/grid.scss',
+
+                npmPathBootStrap + 'mixins/*.scss',
+
                 npmPathBootStrap + '_functions.scss',
                 npmPathBootStrap + '_variables.scss',
-                npmPathBootStrap + 'mixins/_breakpoints.scss',
-                npmPathBootStrap + 'mixins/_grid.scss',
                 npmPathBootStrap + '_grid.scss',
+                // npmPathBootStrap + '_alert.scss',
+
                 './source/templates/**/*.scss',
             ]
         )

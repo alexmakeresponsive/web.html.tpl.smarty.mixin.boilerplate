@@ -8,6 +8,9 @@
             </div>
             <div class="header-col">
                 <span>header-col (2)</span>
+                <div class="message" role="alert">
+                    A simple primary alert—check it out!
+                </div>
             </div>
         </div>
     </div>
